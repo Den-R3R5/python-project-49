@@ -1,7 +1,8 @@
-import brain_games.module as game_functions
-from brain_games.module import greet
+from .greet import greet
+from .cli import welcome_user
+
 
 __all__ = (
-    "game_functions",
+    "welcome_user",
     "greet",
 )
