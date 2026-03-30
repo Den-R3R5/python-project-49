@@ -1,4 +1,12 @@
-from brain_games import calc_game_rules, calc_game, hello_user, question, user_answer, check_answer, congratulations
+from brain_games import (
+    calc_game,
+    calc_game_rules,
+    check_answer,
+    congratulations,
+    hello_user,
+    question,
+    user_answer,
+)
 
 
 def main():
@@ -9,9 +17,10 @@ def main():
         question(game_input)
         user_input = user_answer()
         is_user_right = check_answer(user_input, game_answer, name)
-        if is_user_right == False:
+        if not is_user_right:
             return
     congratulations(name)
+
 
 if __name__ == "__main__":
     main()
