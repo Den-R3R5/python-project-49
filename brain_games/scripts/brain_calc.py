@@ -12,7 +12,7 @@ from brain_games import (
 def main():
     name = hello_user()
     calc_game_rules()
-    for i in range(3):
+    for _ in range(3):
         game_input, game_answer = calc_game()
         question(game_input)
         user_input = user_answer()
