@@ -1,0 +1,26 @@
+from brain_games import (
+    check_answer,
+    congratulations,
+    gcd_game,
+    gcd_game_rules,
+    hello_user,
+    question,
+    user_answer,
+)
+
+
+def main():
+    name = hello_user()
+    gcd_game_rules()
+    for _ in range(3):
+        game_input, game_answer = gcd_game()
+        question(game_input)
+        user_input = user_answer()
+        is_user_right = check_answer(user_input, game_answer, name)
+        if not is_user_right:
+            return
+    congratulations(name)
+
+
+if __name__ == "__main__":
+    main()
