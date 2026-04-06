@@ -6,6 +6,8 @@
 ![Demo](gcd.gif)
 ### Progression game
 ![Demo](progression.gif)
+### Prime game
+![Demo](prime.gif)
 ### Project status
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Den-R3R5_python-project-49&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Den-R3R5_python-project-49)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=Den-R3R5_python-project-49&metric=bugs)](https://sonarcloud.io/summary/new_code?id=Den-R3R5_python-project-49)
