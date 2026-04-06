@@ -1,0 +1,26 @@
+from brain_games import (
+    check_answer,
+    congratulations,
+    hello_user,
+    prime_game,
+    prime_game_rules,
+    question,
+    user_answer,
+)
+
+
+def main():
+    name = hello_user()
+    prime_game_rules()
+    for _ in range(3):
+        game_input, game_answer = prime_game()
+        question(game_input)
+        user_input = user_answer()
+        is_user_right = check_answer(user_input, game_answer, name)
+        if not is_user_right:
+            return
+    congratulations(name)
+
+
+if __name__ == "__main__":
+    main()
