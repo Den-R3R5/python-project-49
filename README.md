@@ -1,13 +1,13 @@
 ### Even game
-![Demo](even.gif)
+![Demo](preview/even.gif)
 ### Calc game
-![Demo](calc.gif)
+![Demo](preview/calc.gif)
 ### Gcd game
-![Demo](gcd.gif)
+![Demo](preview/gcd.gif)
 ### Progression game
-![Demo](progression.gif)
+![Demo](preview/progression.gif)
 ### Prime game
-![Demo](prime.gif)
+![Demo](preview/prime.gif)
 ### Project status
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Den-R3R5_python-project-49&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Den-R3R5_python-project-49)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=Den-R3R5_python-project-49&metric=bugs)](https://sonarcloud.io/summary/new_code?id=Den-R3R5_python-project-49)
