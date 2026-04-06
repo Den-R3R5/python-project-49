@@ -24,7 +24,7 @@ def check_answer(user_input, game_answer, name):
     else:
         print(
             f"'{user_input}' is wrong answer ;(. "
-            f"Correct answer was {game_answer}.\nLet's try again, {name}!"
+            f"Correct answer was '{game_answer}'.\nLet's try again, {name}!"
         )
         return False
 
