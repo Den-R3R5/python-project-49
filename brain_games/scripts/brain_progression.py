@@ -1,9 +1,9 @@
 from brain_games import (
     check_answer,
     congratulations,
+    hello_user,
     progression_game,
     progression_game_rules,
-    hello_user,
     question,
     user_answer,
 )
